@@ -2,3 +2,4 @@
 .idea
 .gradle
 publish.sh
+local.properties
