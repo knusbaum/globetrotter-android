@@ -27,3 +27,5 @@ jobs:
   include:
     - stage: test
       script: ./gradlew build
+    - stage: publish
+      script: ./gradlew bintrayUpload
